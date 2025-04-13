@@ -1,4 +1,15 @@
-build/
+# Ignore VS Code settings
+.vscode/
+
+# Ignore build artifacts
+/build/
+*.out
 *.o
-*.exe
+
+# Ignore system files
 .DS_Store
+Thumbs.db
+
+# Ignore any dependency manager folders
+/node_modules/
+/venv/
